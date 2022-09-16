@@ -3,7 +3,6 @@ def main():
         max_count = 5
         while True:
                 a = input("숫자를 입력해 주세요(종료 - exit) : ")
-                count += 1
                 if count > max_count:
                         print("5회이상 진행 했습니다!")
                         break
