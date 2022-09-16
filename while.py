@@ -15,7 +15,6 @@ def main():
                         count += 1
                         print(int(a) * 2)  
                 except ValueError:
-                        count -= 1
                         print(f"입력한 문자는 {a} 입니다!!")   
                
 
